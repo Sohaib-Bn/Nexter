@@ -204,8 +204,11 @@ body {
       .realtors h3 {
         display: block; } }
   @media only screen and (max-width: 26.5em) {
-    .realtors h3 {
-      display: none; } }
+    .realtors {
+      flex-direction: column;
+      gap: 2.5rem; }
+      .realtors h3 {
+        display: block; } }
   .realtors__list {
     display: grid;
     grid-template-columns: min-content max-content;
